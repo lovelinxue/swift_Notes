@@ -1,13 +1,21 @@
 - ### private
-> ####私有化方法:在当前函数前面添加,是指该函数只支持当前文件中访问,别的文件不能访问
+> **私有化方法**:
+在当前函数前面添加,是指该函数只支持当前文件中访问,别的文件不能访问
+**私有化事件函数**:
+在事件点击方法中也可以让方法局部化,但是因为点击事件的调用是由 运行循环 监听并且以消息机制传递的，因此，按钮监听函数可以设置为 `private` 但是前边必须添加`@objc`
 
 ```swift
+//私有化方法,可以直接添加private
 private func addTitleFunc(title:String,imageName:String)
 {
     //addTitleFunc只支持在当前文件中访问调用该函数
     print("打印输出...")      
 }
 
+//私有化事件点击函数前边必须添加 @objc
+@objc private func composeBtnClick(){
+    print("私有化事件点击函数")
+}
 ```
 - ### NSClassFromString
 > ####根据字符串获取到对应的控制器
