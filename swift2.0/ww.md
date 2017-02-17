@@ -73,6 +73,3 @@ private func addTitleFunc(title:String,imageName:String)
      print("解析后的json数据\(arr)")
 ```
 
-~~w is和安抚 ~~
-
-www~~~~
