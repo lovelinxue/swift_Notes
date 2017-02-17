@@ -1,13 +1,5 @@
 {
     "plugins": [
-        "fontsettings",
-        "ace",
-        "prism",
-        "expandable-chapters",
-        "tbfed-pagefooter",
-        "redirect",
-        "katex",
-        "advanced-emoji",
-        "github",
+        "katex"
     ]
 }
