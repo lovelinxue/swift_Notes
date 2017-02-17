@@ -8,6 +8,7 @@
         "expandable-chapters",
         "redirect",
         "baidu",
-        "tbfed-pagefooter"
+        "tbfed-pagefooter",
+        "katex"
     ]
 }
