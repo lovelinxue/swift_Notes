@@ -1,6 +1,5 @@
 {
     "plugins": [
-        "theme-faq",
         "fontsettings",
         "ace",
         "prism",
@@ -9,12 +8,6 @@
         "tbfed-pagefooter",
         "katex",
         "advanced-emoji",
-        "github"
-    ],
-    "pluginsConfig": {
-        
- 
-
-    }
-
+        "github",
+    ]
 }
