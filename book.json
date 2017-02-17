@@ -7,6 +7,6 @@
         "expandable-chapters",
         "redirect",
         "tbfed-pagefooter",
-        "katex"
+        "-katex"
     ]
 }
