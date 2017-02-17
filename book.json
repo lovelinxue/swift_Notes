@@ -12,10 +12,15 @@
         "github"
     ],
     "pluginsConfig": {
+    
         "tbfed-pagefooter": {
             "copyright": "Copyright &copy 林海雪原 ",
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
-        }
+        },
+        
+         "github": {
+            "url": "https://github.com/lovelinxue/swift_Notes"
+        },
     }
 }
