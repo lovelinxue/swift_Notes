@@ -2,7 +2,6 @@
     "plugins": [
         "theme-faq",
         "fontsettings",
-        "search-jieba",
         "ace",
         "prism",
         "expandable-chapters",
