@@ -72,4 +72,11 @@ private func addTitleFunc(title:String,imageName:String)
      //4.获取到解析后的json文件
      print("解析后的json数据\(arr)")
 ```
+- ### 修改NavgationItem和UITabBar字体颜色
+
+
+```swift
+    UITabBar.appearance().tintColor = UIColor.orangeColor()
+    UINavigationBar.appearance().tintColor = UIColor.orangeColor()
+```
 
