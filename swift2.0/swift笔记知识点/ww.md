@@ -22,3 +22,4 @@
     - 需要Xcode已经安装了**Alcatraz**插件管理工具.在工具中搜索**AMAppExportToIPA**并安装.
     - 使用CMD + B 编译程序后,Xcode目录栏中的`Products`文件夹中的程序变成实体颜色之后.
     - 右键选择该文件,选择菜单中的**Export IPA** 
+    
