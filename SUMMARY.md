@@ -28,6 +28,6 @@
   * [try异常处理使用](swift2.0/在swift中提供3种异常处理的方法.md)
   * [封装转场动画](swift2.0/封装转场动画.md)
   * [封装AFNetworking](swift2.0/封装AFNetworking.md)
-* [swift笔记知识点](swift2.0/swift笔记知识点.md)
+* [开发笔记知识点](swift2.0/开发笔记知识点.md)
   * [打包生成IPA的方法](swift2.0/swift笔记知识点/ww.md)
 
