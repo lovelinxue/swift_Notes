@@ -6,10 +6,11 @@
 ![](/assets/4AEB2FBC-76C9-4647-8D76-607D585310AD.png)
 4.编写pch文件,`NSLog`
 
-```
+```swift
 #ifdef __OBJC__
 
-#ifdef DEBUG
+#ifdef DEBUG//如果是调试状态
+//打印输出:控制器-方法-代码行数-输出内容
 #define NSLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__,__LINE__, ##__VA_ARGS__)
 #else
 #define NSLog(...)
