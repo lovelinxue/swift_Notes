@@ -1,6 +1,6 @@
-##面试相关资料
+#面试相关资料
 
-* ####RunLoop运行循环
+* ###RunLoop运行循环
 
 * **相关文档:**
     - http://blog.ibireme.com/2015/05/18/runloop/
@@ -27,3 +27,15 @@
            
     - Event tracking：UITrackingRunLoopMode，**拖动事件/滚动视图**
     - Common mode：NSRunLoopCommonModes，**是一个模式集合，当绑定一个事件源到这个模式集合的时候就相当于绑定到了集合内的每一个模式**
+    
+* ###RunTime运行时
+- **应用场景:**
+    - 关联对象
+        - 仿SDWebimage
+        - 最多出现在分类中
+            - 给分类动态的添加属性
+            - 做到更好的解耦
+            - 简化使用
+    
+    - 动态获取分类的属性
+
