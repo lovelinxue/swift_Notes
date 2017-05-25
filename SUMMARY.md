@@ -33,4 +33,5 @@
   * [GitHub的基本用法](swift2.0/开发笔记知识点/GitHub的基本用法.md)
   * [程序调试相关](swift2.0/开发笔记知识点/程序调试相关.md)
   * [打印输出调试pch文件配置](swift2.0/开发笔记知识点/outputdebugmethod.md)
+  * [面试相关资料](swift2.0/开发笔记知识点/theinterviewdata.md)
 
