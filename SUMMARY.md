@@ -29,15 +29,11 @@
   * [封装转场动画](swift2.0/封装转场动画.md)
   * [封装AFNetworking](swift2.0/封装AFNetworking.md)
 * [开发笔记知识点](swift2.0/开发笔记知识点.md)
-  * [打包生成IPA的方法](swift2.0/开发笔记知识点/打包生成IPA的方法.md)
   * [GitHub的基本用法](swift2.0/开发笔记知识点/GitHub的基本用法.md)
-  * [程序调试相关](swift2.0/开发笔记知识点/程序调试相关.md)
-  * [打印输出调试pch文件配置](swift2.0/开发笔记知识点/outputdebugmethod.md)
-  * [面试相关资料](swift2.0/开发笔记知识点/theinterviewdata.md)
-* [面试相关资料](mianshiziliao.md)
-  * [打包程序生成IPA文件](mianshiziliao/yi.md)
-  * [程序调试相关](mianshiziliao/er.md)
-  * [打印输出调试pch文件配置](mianshiziliao/san.md)
-  * RunLoop
-  * RunTime
+* [面试相关资料](面试资料.md)
+  * [打包程序生成IPA文件](面试资料/打包程序生成IPA文件.md)
+  * [程序调试相关](面试资料/调试程序定位Bug.md)
+  * [打印输出调试pch文件配置](面试资料/打印输出调试pch宏文件配置.md)
+  * [RunLoop](面试资料/runloop.md)
+  * [RunTime](面试资料/runtime.md)
 
