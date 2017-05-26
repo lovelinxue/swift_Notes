@@ -54,3 +54,48 @@
         - 将获取到的属性转换成输出字符串并将数据存入数组.
         - `free()`释放运行时数组
 
+
+
+```swift
+#import "NSObject+time.h"
+
+@implementation NSObject (time)
+
++ (NSArray *)a_getClassAttributeArr
+{
+    //创建返回的数组
+    NSMutableArray *arrM = [NSMutableArray new];
+    
+    //创建属性指针
+    unsigned int coun = 0;
+    
+    //调用运行时的方法,取得类的属性列表
+    objc_property_t *classAttribute = class_copyPropertyList([self class], &coun);
+
+    for (unsigned int i = 0; i < coun; i++)
+    {
+        //从数组中取出属性
+        objc_property_t attribute = classAttribute[i];
+        
+        //从数据中获取到属性名称
+        const char *attributeName = property_getName(attribute);
+        
+        //将获取到的属性转换成输出字符串
+        NSString *attributeClassName = [NSString stringWithCString:attributeName encoding:NSUTF8StringEncoding];
+        
+        //将数据存入数组
+        [arrM addObject:attributeClassName];
+        
+    }
+    
+    
+    //释放
+    free(classAttribute);
+    
+    return arrM;
+}
+
+@end
+
+```
+
