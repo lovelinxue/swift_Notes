@@ -1,6 +1,6 @@
 # Summary
 
-* [swift学习记录](README.md)
+* [学习记录](README.md)
 * [一.原版微博开发笔记](swift2.0/原版微博开发笔记.md)
   * [0.1项目部署](swift2.0/0.1.md)
   * [0.2图片素材](swift2.0/0.2.md)
@@ -34,4 +34,10 @@
   * [程序调试相关](swift2.0/开发笔记知识点/程序调试相关.md)
   * [打印输出调试pch文件配置](swift2.0/开发笔记知识点/outputdebugmethod.md)
   * [面试相关资料](swift2.0/开发笔记知识点/theinterviewdata.md)
+* [面试相关资料](mianshiziliao.md)
+  * [打包程序生成IPA文件](mianshiziliao/yi.md)
+  * [程序调试相关](mianshiziliao/er.md)
+  * [打印输出调试pch文件配置](mianshiziliao/san.md)
+  * RunLoop
+  * RunTime
 
