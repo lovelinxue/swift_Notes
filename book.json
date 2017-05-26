@@ -2,6 +2,5 @@
     "plugins": [
         "katex",
         "disqus"
-        "author:ww"
     ]
 }
