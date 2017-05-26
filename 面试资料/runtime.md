@@ -56,9 +56,7 @@
         //将数据存入数组
         [arrM addObject:attributeClassName];
         
-    }
-    
-    
+    }    
     //释放
     free(classAttribute);
     
