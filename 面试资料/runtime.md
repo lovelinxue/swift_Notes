@@ -29,6 +29,29 @@
         - `free()`释放运行时数组
 
 
+###动态获取类的属性数组
+**NSObject+time.h**
+```swift
+#import <Foundation/Foundation.h>
+#import <objc/runtime.h>
+
+@interface NSObject (time)
+/**
+ *  获取类的属性列表数组
+ *
+ *  @return 返回值数组
+ */
++ (NSArray *)a_getClassAttributeArr;
+
+@end
+
+
+```
+
+**NSObject+time.m**
+
+
+
 
 ```swift
 #import "NSObject+time.h"
@@ -70,4 +93,13 @@
 @end
 
 ```
+**调用方法**
+```swift
+    NSArray *classArrtibuteArr = [Preson a_getClassAttributeArr];
+    NSLog(@"%@",classArrtibuteArr);
+    
+```
 
+
+
+###使用KVC
