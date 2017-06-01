@@ -116,7 +116,7 @@
 ```
 
 **NSObject+time.m**
-```Swift
+```swift
 + (instancetype)a_objWithDict:(NSDictionary *)dic
 {
     //1.实例化要返回的对象
@@ -147,7 +147,7 @@
 
 **方法调用**
 
-```Swift
+```swift
     Preson *pre = [Preson a_objWithDict:@{@"userName":@"wwwwww",
                                           @"userAge":@12,
                                           @"userNumber":@3333333}];
