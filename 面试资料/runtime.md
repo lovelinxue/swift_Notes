@@ -14,14 +14,14 @@
         - `黑魔法`对系统,框架有很强的依赖性.
 
 - **动态获取分类的属性(字典转模型的时候使用)步骤:**
->`class_copyPropertyList`(要获取的类, 类属性的个数指针)类的属性
- `class_copyIvarList`(, )获取成员变量
- `class_copyMethodList`(, )获取类的方法
- `class_copyProtocolList`(, )获取类的协议
- >>**返回值:**可以option + click 看方法详解里有 `objc_property_t * class_copyPropertyList
-`
-关于是否需要释放:retain/create/copy   需要release.如果不确定可以option + click 看方法详解
 
+    - **`class_copyPropertyList`(要获取的类, 类属性的个数指针)类的属性
+**
+    - **`class_copyIvarList`(, )获取成员变量**
+    - **`class_copyMethodList`(, )获取类的方法**
+    - **`class_copyProtocolList`(, )获取类的协议**
+    - ****返回值:**可以option + click 看方法详解里有 `objc_property_t * class_copyPropertyList`**
+    - 关于是否需要释放:retain/create/copy   需要release.如果不确定可以option + click 看方法详解
         - 首先建立NSObject的分类
         - 使用**class_copyPropertyList**获取类属性的数组
         - 遍历数组,从中取出每个元素使用**property_getName**获取到属性名称.
