@@ -1,4 +1,4 @@
-###RunTime运行时
+###RunTime运行时`写在分类里面直接使用`
 - **应用场景:**
     - 字典转模型
     - 关联对象
@@ -102,4 +102,57 @@
 
 
 
-###使用KVC
+###使用KVC让字典转模型
+**NSObject+time.h**
+```swift
+/**
+ *  给一个字典,创建相对应的对象
+ *
+ *  @param dic 要变对象的字典
+ *
+ *  @return 返回对象
+ */
++ (instancetype)a_objWithDict:(NSDictionary *)dic;
+```
+
+**NSObject+time.m**
+```Swift
++ (instancetype)a_objWithDict:(NSDictionary *)dic
+{
+    //1.实例化要返回的对象
+    id object = [[self alloc]init];
+    
+    //2.获取到当前对象已经有的属性值
+    NSArray *objAttributeArr = [self a_getClassAttributeArr];
+    
+    //3.遍历字典的键跟值
+    [dic enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+        
+        NSLog(@"key : %@ ----- value : %@",key,obj);
+        
+        //4.判断当前对象objAttributeArr数组中是否有字典中的该属性
+        if ([objAttributeArr containsObject:key]) {
+            
+            //5.如果有就用KVC赋值过去
+            [object setValue:obj forKey:key];
+            
+        }
+        
+    }];
+    
+    //6.返回对象
+    return object;
+}
+```
+
+**方法调用**
+
+```Swift
+    Preson *pre = [Preson a_objWithDict:@{@"userName":@"wwwwww",
+                                          @"userAge":@12,
+                                          @"userNumber":@3333333}];
+    
+    NSLog(@"%@",pre.userName);
+```
+
+
