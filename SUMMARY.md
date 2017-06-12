@@ -21,7 +21,6 @@
     * [0.4.6设置全局外观](swift2.0/0.4/0.4.6.md)
     * [0.4.7阶段性小结](swift2.0/0.4/0.4.7.md)
   * [0.5代码评审](swift2.0/0.5.md)
-  ### Part II
 * [二.视频自学微博笔记](swift2.0/视频自学微博笔记.md)
   * [类扩展的创建](swift2.0/怎么创建类扩展.md)
   * [创建自定义控件](swift2.0/创建自定义控件.md)
@@ -31,8 +30,8 @@
   * [封装AFNetworking](swift2.0/封装AFNetworking.md)
 * [开发笔记知识点](swift2.0/开发笔记知识点.md)
   * [GitHub的基本用法](swift2.0/开发笔记知识点/GitHub的基本用法.md)
-  ### Part II
-* [Part I][面试相关资料](面试资料.md)
+  * [fastLookProject](swift2.0/开发笔记知识点/fastlookproject.md)
+* [面试相关资料](面试资料.md)
   * [打包程序生成IPA文件](面试资料/打包程序生成IPA文件.md)
   * [程序调试相关](面试资料/调试网络定位Bug.md)
   * [打印输出调试pch文件配置](面试资料/打印输出调试pch宏文件配置.md)
